@@ -117,8 +117,7 @@
         class="icon arrow"
         onclick="location.href='./#experience'"
       />
-    </section>
-    <section id="experience">
+        <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
@@ -186,53 +185,74 @@
           <div class="details-container">
             <h2 class="experience-sub-title">CREATIVE SKILLS</h2>
             <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Adobe Premiere Pro</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CapCut</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Adobe Photoshop</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Canva</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
+         <article>
+            <img src="./assets/checkmark.png" class="icon" />
+            <div>
+              <h3>Adobe Premiere Pro</h3>
+              <p>Experienced</p>
             </div>
+          </article>
+
+          <article>
+            <img src="./assets/checkmark.png" class="icon" />
+            <div>
+              <h3>CapCut</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/checkmark.png" class="icon" />
+            <div>
+              <h3>Adobe Photoshop</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="./assets/checkmark.png" class="icon" />
+            <div>
+              <h3>Canva</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+
+            </div>
+          </div>
+          <div class="details-container">
+          <h2 class="experience-sub-title">SOFT SKILLS</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" class="icon" />
+              <div>
+                <h3>Leadership</h3>
+                <p style="visibility: hidden; margin: 0;">.</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon" />
+              <div>
+                <h3>Communication</h3>
+                <p style="visibility: hidden; margin: 0;">.</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon" />
+              <div>
+                <h3>Problem-Solving</h3>
+                <p style="visibility: hidden; margin: 0;">.</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" class="icon" />
+              <div>
+                <h3>Critical Thinking</h3>
+                <p style="visibility: hidden; margin: 0;">.</p>
+              </div>
+            </article>
+          </div>
         </div>
-      </div>
+       </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -327,28 +347,30 @@
         onclick="location.href='./#contact'"
       />
     </section>
-    <section id="contact">
+     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:examplemail@gmail.com">ayushnarula100@gmail.com</a></p>
+          <img src="./assets/email.png" class="icon contact-icon email-icon" />
+          <p><a href="mailto:ayushnarula100@gmail.com">ayushnarula100@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
+          <img src="./assets/linkedin.png" class="icon contact-icon" />
           <p><a href="https://www.linkedin.com/in/ayush-narula-8b4665334/">LinkedIn</a></p>
         </div>
       </div>
+
+      <div class="contact-form-container">
+        <form id="contact-form">
+          <input type="text" name="from_name" placeholder="Your Name" required />
+          <input type="email" name="from_email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-color-1">Send</button>
+        </form>
+      </div>
     </section>
+
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -362,8 +384,7 @@
       </nav>
       <p>Copyright &#169; 2023 Ayush Narula. All Rights Reserved.</p>
     </footer>
+
     <script src="script.js"></script>
   </body>
-</html>   
-</body>
 </html>
